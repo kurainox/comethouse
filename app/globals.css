@@ -1,0 +1,91 @@
+:root {
+  --color-surface: #fbfbfb;
+  --color-on-surface-light: #202020;
+  --color-container-dark: #202020;
+  --color-on-container-dark: #fbfbfb;
+  --color-container-light: #ffffff;
+  --color-outline: #eeeeee;
+  --section-padding: 100px;
+
+  --color-button-primary: #202020;
+  --color-on-button-primary: #fbfbfb;
+  /* --color-button-hover: #f0f0f0; */
+  --title-fontsize-sm: clamp(2.5rem, 5vw, 4rem);
+  --text-fontsize-sm: clamp(1.25rem, 2vw, 1.5rem);
+
+  --max-container-width: 1250px;
+  background-color: var(--color-surface);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+  backface-visibility: hidden;
+  hanging-punctuation: first last;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 80ch;
+  text-wrap: pretty;
+}
+
+a[role="navigation link"] {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* li[role="pricing-list"]::before {
+  content: ;
+} */
+
+/* button {
+  cursor: pointer;
+  width: 300px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  background-color: var(--color-container-dark);
+  color: var(--color-on-container-dark);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1pt;
+} */
+

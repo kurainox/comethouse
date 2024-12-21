@@ -1,0 +1,11 @@
+.highlight {
+  border-radius: 12px;
+  padding: 4px 12px;
+  background-size: 200% 100% !important;
+  background-position: right !important;
+  transition: all 1s ease-out;
+}
+
+.animate {
+  background-position: left !important;
+}
